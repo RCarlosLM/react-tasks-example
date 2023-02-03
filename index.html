@@ -7,6 +7,22 @@
     <title>Vite + React</title>
   </head>
   <body>
+
+    <!-- 
+      * PARA HACER DEPLOY EN GITHUB PAGES
+      * npm run build
+      * subir el proyecto a un repo que creamos( git init git add . git commit -m "" git remote url repo git push ...)
+      * instalar npm install gh-pages --save-dev
+      * agregar un srcrip en package.json (en la seccion de script agrega:)
+      * "deploy": "gh-pages -d dist"
+      // npm install gh-pages --save-dev : para subir a github pages, add lo siguiente:
+      // gh-pages -d dist => dist es el nombre de la carpeta que queremos subir
+      * configurar vite.config.js con https://vitejs.dev/guide/static-deploy.html#github-pages
+      * realizar los pasos y configurarlo con la opcion de repo
+      * npm run build
+      * npm run deploy
+      // listo proyecto publicado, revisar en https://github.com/RCarlosLM/react-tasks-example/settings/pages
+     -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
